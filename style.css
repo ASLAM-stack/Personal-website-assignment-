@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*font-family: 'Bebas Neue', cursive;*/
+/*font-family: 'Roboto', sans-serif;*/
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+img
+{
+    width: 100%;
+
+}
+header {
+    box-shadow: -1px -7px 13px 5px;
+}
+section
+{
+    height: 700px;
+}
+.introduction
+{
+    height: 700px;
+}
+.menu_link
+{
+    list-style: none;
+    width: 288px;
+    height: 25px;
+    float: right;
+    margin-right: 100px;
+}
+.menu_link li a:hover
+{
+    color:#FF8063;
+    transition: 1s;
+}
+.menu_btn
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-decoration:none;
+    color: #3C3C3C;
+    font-weight: 500;
+    padding: 10px;
+    float: left;
+    margin-top: 16px;
+}
+nav {
+    height: 68px;
+    /* width: 1170px; 
+    border-bottom: 1px solid rebeccapurple;*/
+}
+.profile_img
+{
+    width: 500px;
+    float:right;/* left*/
+    margin: 5%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+.intro_discription
+{
+    width: 40%;
+    float: left;
+    margin: 5%;
+    padding: 2%;
+}
+.name
+{
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+}
+.name h1:first-child
+{
+    color: #363958;
+}
+.name h1:last-child
+{
+    color: #FF8367;
+    margin-top: -16px;
+    
+}
+.discription
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    color: #3E3E3E;
+}
+.btn_div,.about_btn
+{
+    padding: 20px;
+    background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
+    width: 170px;
+    height: 60px;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 20px;
+}
+.btn
+{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:white;
+}
+.about_pic
+{
+    width: 500px;
+    float: left;
+    margin: 5%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+.about_description
+{
+    width: 40%;
+    float: right;/* left*/
+    margin: 5%;;
+    padding: 2%;
+}
+.about_title
+{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+}
+.about_me
+{
+    font-size:16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #3E3E3E;
+    font-family: 'Roboto', sans-serif;
+}
