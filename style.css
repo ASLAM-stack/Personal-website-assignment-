@@ -55,7 +55,7 @@ nav {
 }
 .profile_img
 {
-    width: 500px;
+    width: 40%;
     float:right;/* left*/
     margin: 5%;
     padding: 2%;
@@ -112,7 +112,7 @@ nav {
 }
 .about_pic
 {
-    width: 500px;
+    width: 40%;
     float: left;
     margin: 5%;
     padding: 2%;
