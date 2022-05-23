@@ -193,3 +193,35 @@ nav {
     margin: auto;
     width: 1140px;
 }
+.live_chat h1
+{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Bebas Neue';
+    color: #ffffff;
+    position: absolute;
+    top: 75px;
+    left: 565px;
+
+}
+.contract
+{
+    position: relative;
+}
+.live_img
+{
+    width: 900px;
+    margin: auto;
+}
+.cotra_btn
+{
+    width: 134px;
+    height: 60px;
+    background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 84px;
+    right: 560px;
+    border-radius: 6px;
+}
