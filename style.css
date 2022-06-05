@@ -5,223 +5,97 @@
 *
 {
     margin: 0;
-    padding:0;
-    box-sizing: border-box;
+    padding: 0;
+}
+header
+{
+    height: 50px;
+    box-shadow: 1px 1px 1px 1px orange;
+}
+ul
+{
+    list-style: none;
+    float: right;
+    width: 370px;
+    margin-top: 13px;
+    margin-right: 30px;
+}
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #3C3C3C;
+    margin-right: 25px;
+
+}
+li
+{
+    float: left;
+}
+.introduction
+{
+    margin-top: 20px;
+}
+
+
+.half-width
+{
+    width: 40%;
+    margin-left: 2%;
+    padding-left: 2%;
+    float:left;
 }
 img
 {
     width: 100%;
-
+    height: 100%;
 }
-header {
-    box-shadow: -1px -7px 13px 5px;
-}
-section
+.intro_heading
 {
-    height: 700px;
-}
-.introduction
-{
-    height: 700px;
-}
-.menu_link
-{
-    list-style: none;
-    width: 288px;
-    height: 25px;
-    float: right;
-    margin-right: 100px;
-}
-.menu_link li a:hover
-{
-    color:#FF8063;
-    transition: 1s;
-}
-.menu_btn
-{
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    text-decoration:none;
-    color: #3C3C3C;
-    font-weight: 500;
-    padding: 10px;
-    float: left;
-    margin-top: 16px;
-}
-nav {
-    height: 68px;
-    /* width: 1170px; 
-    border-bottom: 1px solid rebeccapurple;*/
-}
-.profile_img
-{
-    width: 500px;
-    float:left;/* left*/
-    margin: 5%;
-    padding: 2%;
-    box-sizing: border-box;
-}
-.intro_discription
-{
-    width: 40%;
-    float: left;
-    margin: 5%;
-    padding: 2%;
-}
-.name
-{
-    font-size: 80px;
     font-family: 'Bebas Neue', cursive;
-    font-weight: bold;
+    font-size: 80px;
+    color:  #363958;
 }
-.name h1:first-child
-{
-    color: #363958;
-}
-.name h1:last-child
+.hightlight
 {
     color: #FF8367;
-    margin-top: -16px;
-    
 }
-.discription
+.intro_dis
 {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    line-height: 24px;
     font-size: 16px;
-    color: #3E3E3E;
-}
-.btn_div,.about_btn
-{
-    padding: 20px;
-    background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
-    width: 170px;
-    height: 60px;
-    border-radius: 6px;
-    text-align: center;
-    margin-top: 20px;
+    line-height: 24px;
+    color:#3E3E3E;
+    margin-top: -15px;
 }
 .btn
 {
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
-    color:white;
-}
-.about_pic
-{
-    width: 500px;
-    float: left;
-    margin: 5%;
-    padding: 2%;
-    box-sizing: border-box;
-}
-.about_description
-{
-    width: 40%;
-    float: left;/* left*/
-    margin: 5%;;
-    padding: 2%;
-}
-.about_title
-{
-    font-size: 48px;
-    font-weight: 700;
-    font-family: 'Bebas Neue', cursive;
-    color: #363958;
-}
-.about_me
-{
-    font-size:16px;
-    line-height: 24px;
-    font-weight: 400;
-    color: #3E3E3E;
-    font-family: 'Roboto', sans-serif;
-}
-.heading
-{
-     text-align: center;
-     color: #363958;
-     font-family: 'Bebas Neue', cursive;
-     font-size: 48px;
-     font-weight: bold;
-     margin-bottom: 50px;
-    
-}
-.heading span
-{
-    color: #F46060;
-}
-.project_img
-{
-    width: 340px;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    margin-top: 5px;
+    color: white;
+    padding: 10px 20px;
+    background: linear-gradient(45deg,#FF8063,#F46060);
 
 }
-.project_discription h1
+.intro_btn
 {
-    font-size: 24px;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
-    color: #363958;
-    text-align: center;
+    margin-top: 20px;
 }
-.project_discription p
+.heading2
 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    text-align: center;
+    margin-top: -20px;
 }
-.project
+.about_btn
 {
-    width: 350px;
-    background: #FFFFFF;
-    box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
-    border-radius: 19.7436px;
-    float: left;
-    margin-left: 30px;
-    text-align: center;
+    margin-top: 20px;
 }
-.projects_display
+.work_img
 {
-    margin: auto;
-    width: 1140px;
-}
-.live_chat h1
-{
-    font-size: 64px;
-    font-weight: 700;
-    font-family: 'Bebas Neue';
-    color: #ffffff;
-    position: absolute;
-    top: 75px;
-    left: 565px;
-
-}
-.contract
-{
-    position: relative;
-}
-.live_img
-{
-    width: 900px;
-    margin: auto;
-}
-.cotra_btn
-{
-    width: 134px;
-    height: 60px;
-    background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
-    text-align: center;
-    padding: 20px;
-    position: absolute;
-    top: 84px;
-    right: 560px;
-    border-radius: 6px;
+    width: 343.54px;
+    height: 213.23px;
 }
